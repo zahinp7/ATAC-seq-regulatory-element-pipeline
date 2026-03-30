@@ -4,23 +4,23 @@
 #SBATCH --mem=16GB
 #SBATCH --cpus-per-task=8
 #SBATCH -J halper_liftover
-#SBATCH -o /ocean/projects/bio230007p/peerzade/logs/halper_liftover_%j.out
-#SBATCH -e /ocean/projects/bio230007p/peerzade/logs/halper_liftover_%j.err
+#SBATCH -o logs/halper_liftover_%j.out
+#SBATCH -e logs/halper_liftover_%j.err
 
 set -euo pipefail
 
 # ─── CONFIGURATION ──────────────────────────────────────────────────────────────
 # Project root (for outputs)
-PROJECT_ROOT="/ocean/projects/bio230007p/peerzade"
+PROJECT_ROOT="/path/to/your/base/directory"
 
 # Shared data root (where HumanAtac/ MouseAtac/ Alignments/ live)
-DATA_ROOT="/ocean/projects/bio230007p/ikaplow"
+DATA_ROOT="/path/to/your/data/directory"
 
 # Cactus HAL alignment
 ALIGNMENT_FILE="$DATA_ROOT/Alignments/10plusway-master.hal"
 
 # HALPER repo (holds halper_map_peak_orthologs.sh)
-HALPER_SCRIPT_DIR="/jet/home/peerzade/repos/halLiftover-postprocessing"
+HALPER_SCRIPT_DIR="/path/to/halLiftover-postprocessing"
 
 # Conda environment with halTools + Python deps
 CONDA_ENV="halper_env"
@@ -36,7 +36,7 @@ tissues=( "Liver" "Pancreas" )
 mkdir -p "$OUTPUT_DIR" "$PROJECT_ROOT/logs"
 
 # 1) Activate Conda
-source /jet/home/peerzade/anaconda3/etc/profile.d/conda.sh
+source /path/to/anaconda3/etc/profile.d/conda.sh
 conda activate "$CONDA_ENV"
 
 # 2) Ensure halTools & HALPER scripts are on PATH / PYTHONPATH
