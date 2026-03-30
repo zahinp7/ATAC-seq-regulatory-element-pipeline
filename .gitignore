@@ -1,0 +1,9 @@
+.DS_Store
+*.DS_Store
+logs/
+*.log
+*.out
+*.err
+__pycache__/
+.Rhistory
+.RData

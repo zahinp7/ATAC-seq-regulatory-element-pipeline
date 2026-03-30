@@ -1,0 +1,96 @@
+# Functional Annotation Analysis Summary
+
+## Peak Statistics
+Human conserved regions: 99127 
+Human liver-specific regions: 60831 
+Human pancreas-specific regions: 62075 
+Mouse conserved regions: 67538 
+Mouse liver-specific regions: 67512 
+Mouse pancreas-specific regions: 25967 
+
+## Gene Statistics
+Human conserved genes: 21618 
+Human liver-specific genes: 15074 
+Human pancreas-specific genes: 14428 
+Mouse conserved genes: 14282 
+Mouse liver-specific genes: 12745 
+Mouse pancreas-specific genes: 7970 
+
+## Top enriched biological processes
+### Human conserved:
+                                               Description       pvalue       qvalue
+1              regulation of neuron projection development 1.633006e-20 6.654070e-17
+2              positive regulation of protein localization 2.319959e-19 4.726611e-16
+3                small GTPase-mediated signal transduction 2.480815e-18 3.369556e-15
+4                 regulation of cellular catabolic process 1.331794e-16 1.356678e-13
+5                                              cell growth 4.959581e-16 4.041797e-13
+6                                             axonogenesis 7.013854e-16 4.763268e-13
+7                          regulation of protein transport 1.342393e-15 7.814140e-13
+8  regulation of small GTPase mediated signal transduction 2.024214e-15 1.031017e-12
+9                                  regulation of autophagy 7.344865e-15 3.325377e-12
+10                               regulation of cell growth 2.093417e-14 8.530122e-12
+
+### Human liver-specific:
+                                                 Description       pvalue       qvalue
+1648               small GTPase-mediated signal transduction 8.576084e-26 3.352797e-22
+1649                    positive regulation of cell adhesion 3.686953e-22 7.207023e-19
+1650 regulation of small GTPase mediated signal transduction 2.413101e-21 3.144651e-18
+1651                     positive regulation of MAPK cascade 7.104827e-18 6.944034e-15
+1652                  positive regulation of cell activation 1.667143e-17 1.303531e-14
+1653                            leukocyte cell-cell adhesion 3.082404e-17 2.008429e-14
+1654                             actin filament organization 3.603285e-17 2.012421e-14
+1655                                           wound healing 7.666612e-17 3.576439e-14
+1656                  positive regulation of phosphorylation 8.233321e-17 3.576439e-14
+1657              regulation of actin filament-based process 1.326024e-16 5.184057e-14
+
+### Human pancreas-specific:
+                                                 Description       pvalue       qvalue
+3653               small GTPase-mediated signal transduction 3.466718e-29 1.460765e-25
+3654 regulation of small GTPase mediated signal transduction 9.745194e-29 2.053158e-25
+3655                             actin filament organization 2.859115e-24 4.015803e-21
+3656                                            axonogenesis 3.543587e-23 3.732889e-20
+3657             regulation of neuron projection development 1.037937e-20 8.747075e-18
+3658                                   Wnt signaling pathway 3.912419e-20 2.747616e-17
+3659                              neuron projection guidance 8.424993e-20 5.071466e-17
+3660                          morphogenesis of an epithelium 1.275195e-19 6.500283e-17
+3661                                           axon guidance 1.388394e-19 6.500283e-17
+3662                    regulation of cell junction assembly 1.752246e-19 7.383409e-17
+
+### Mouse conserved:
+                                           Description       pvalue       qvalue
+1                  mitotic cell cycle phase transition 1.106745e-68 1.820886e-65
+2            regulation of cell cycle phase transition 3.129889e-61 2.574746e-58
+3              establishment of organelle localization 4.304075e-58 2.360445e-55
+4             regulation of cellular catabolic process 3.559720e-55 1.464169e-52
+5                 ribonucleoprotein complex biogenesis 1.196148e-54 3.490381e-52
+6              regulation of protein catabolic process 1.272884e-54 3.490381e-52
+7  negative regulation of protein modification process 3.946730e-53 9.276300e-51
+8            small GTPase-mediated signal transduction 1.197550e-52 2.462857e-50
+9    regulation of mitotic cell cycle phase transition 2.867529e-52 5.242045e-50
+10                             Golgi vesicle transport 3.569672e-52 5.569419e-50
+
+### Mouse liver-specific:
+                               Description       pvalue       qvalue
+4822          fatty acid metabolic process 1.352628e-55 2.165629e-52
+4823                 forebrain development 6.329763e-51 5.067142e-48
+4824 regulation of lipid metabolic process 2.968387e-50 1.584181e-47
+4825           muscle cell differentiation 7.518539e-49 2.434019e-46
+4826       response to xenobiotic stimulus 7.601309e-49 2.434019e-46
+4827                       lipid transport 1.851323e-46 4.475237e-44
+4828               organic anion transport 1.956629e-46 4.475237e-44
+4829             steroid metabolic process 2.834636e-46 5.673002e-44
+4830      small molecule catabolic process 1.291006e-45 2.296632e-43
+4831     organic acid biosynthetic process 3.690076e-45 5.908006e-43
+
+### Mouse pancreas-specific:
+                                                 Description       pvalue       qvalue
+9626               small GTPase-mediated signal transduction 1.156533e-42 2.639330e-39
+9627                              lymphocyte differentiation 6.228941e-41 7.107549e-38
+9628                            leukocyte cell-cell adhesion 3.203987e-39 2.437278e-36
+9629                             actin filament organization 1.824647e-38 1.041009e-35
+9630                                  T cell differentiation 3.730163e-37 1.702525e-34
+9631              regulation of leukocyte cell-cell adhesion 2.168709e-35 8.248703e-33
+9632                              regulation of neurogenesis 3.944411e-34 1.285937e-31
+9633                         regulation of T cell activation 1.973715e-33 5.630281e-31
+9634               positive regulation of cell-cell adhesion 1.463243e-32 3.710306e-30
+9635 regulation of small GTPase mediated signal transduction 2.992864e-32 6.830032e-30
