@@ -13,7 +13,7 @@ module load MEME-suite/5.4.1
 module load samtools  # for faidx
 
 # Directories
-BASE_DIR="/ocean/projects/bio230007p/achousal"
+BASE_DIR="/path/to/your/base/directory"
 CLASSIFIED_DIR="${BASE_DIR}/promoters_enhancers"
 GENOME_DIR="${BASE_DIR}/ikaplow"
 OUTPUT_BASE="${BASE_DIR}/meme_chip_outputs"

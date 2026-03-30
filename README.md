@@ -1,9 +1,7 @@
 # Cross-Species Regulatory Element Analysis Pipeline
 
-**Team:** Andres Chousal, Zahin Peerzade, Siddharth Sabata, Yinuo Yang
-
+**Zahin Peerzade** | CMU Bioinformatics Data Practicum (03-713)
 **Course:** Bioinformatics Data Practicum
-
 **Tissues:** Liver, Pancreas (Human \& Mouse)
 
 ---
@@ -254,16 +252,6 @@ The main pipeline is orchestrated by `main.sh`, which calls the following script
     *   `<output_dir>/sequences/<subset_name>.fa`: FASTA sequences for each analyzed subset.
     *   `<output_dir>/meme_chip_results/<subset_name>/`: MEME-ChIP output directory for each subset, containing standard results like `meme-chip.html`, `meme_out/`, etc.
     *   `<output_dir>/meme_chip_results/<subset_name>/meme-chip.log`: Log file for each MEME-ChIP run.
-
---- 
-## Cite Us
-
-If you use this pipeline in your research, please cite:
-
-Andres Chousal, Zahin Peerzade, Siddharth Sabata, Yinuo Yang. *RegulatoryElementAnalysisPipeline: A pipeline for Cross-Species Regulatory Element Analysis of Human and Mouse ATAC data*. GitHub repository. Available at: https://github.com/BioinformaticsDataPracticum2025/Bioinformatics_03713 (Accessed 29 Apr 2025).
-
-
----
 
 ## References
 
