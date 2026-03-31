@@ -18,7 +18,6 @@ We aim to answer three primary questions with these results:
 
 **Question 3**: To what extent are the biological processes upregulated in tissue conserved across species?
 
-(*Questions directly quoted from project description document*)
 
 ---
 ## Workflow
