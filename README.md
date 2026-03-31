@@ -1,4 +1,4 @@
-# Cross-Species Regulatory Element Analysis Pipeline
+# ATAC-seq Regulatory Element Analysis Pipeline
 
 **Zahin Peerzade** | CMU Bioinformatics Data Practicum (03-713)
 **Course:** Bioinformatics Data Practicum
