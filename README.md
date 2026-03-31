@@ -21,8 +21,8 @@ We aim to answer three primary questions with these results:
 
 ---
 ## Workflow
+![Pipeline Workflow](https://github.com/user-attachments/assets/e7f39d2d-2f31-4986-829d-c04f7e3dbd7f)
 
-![](<img width="1516" height="844" alt="Image" src="https://github.com/user-attachments/assets/e7f39d2d-2f31-4986-829d-c04f7e3dbd7f" />)
 1. **Data Quality Control**
 ATAC-seq (Assay for Transposase-Accessible Chromatin using Sequencing) quality reports (provided) from human and mouse liver, pancreas, and ovary manually analyzed to determine which datasets to use for further analysis. The ovarian dataset consisted of short read lengths for both human and mouse, and was thrown out. This step is essential for ensuring informative results. 
 2. **Cross-Species Mapping**
