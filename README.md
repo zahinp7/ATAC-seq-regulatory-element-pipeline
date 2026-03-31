@@ -260,7 +260,3 @@ The main pipeline is orchestrated by `main.sh`, which calls the following script
 - BEDTools: Quinlan AR, Hall IM. BEDTools: a flexible suite of utilities for comparing genomic features. *Bioinformatics*. 2010;26(6):841-842. doi:10.1093/bioinformatics/btq033 
 
 ---
-
-## AI Usage
-- GenAI assistance used to create README
-- GenAI used in all code. Original code was written by humans, but AI was used to optimize, comment, and bugfix. The final scripts in this repository have been modified with AI. 
