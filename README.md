@@ -1,9 +1,5 @@
 # ATAC-seq Regulatory Element Analysis Pipeline
 
-**Zahin Peerzade** | CMU Bioinformatics Data Practicum (03-713)
-**Course:** Bioinformatics Data Practicum
-**Tissues:** Liver, Pancreas (Human \& Mouse)
-
 ---
 
 ## Introduction
@@ -260,3 +256,7 @@ The main pipeline is orchestrated by `main.sh`, which calls the following script
 - BEDTools: Quinlan AR, Hall IM. BEDTools: a flexible suite of utilities for comparing genomic features. *Bioinformatics*. 2010;26(6):841-842. doi:10.1093/bioinformatics/btq033 
 
 ---
+**Zahin Peerzade** | CMU Bioinformatics Data Practicum (03-713)
+**Course:** Bioinformatics Data Practicum
+**Tissues:** Liver, Pancreas (Human \& Mouse)
+
