@@ -6,7 +6,7 @@
 
 This pipeline performs a comparative analysis of transcriptional regulatory elements (promoters and enhancers) between liver and pancreas tissues in human and mouse. It maps open chromatin regions across species, identifies conserved and tissue-specific elements, classifies peaks as promoters or enhancers, and performs motif discovery and functional enrichment.
 
-We aim to answer three primary questions with these results:
+Aim to answer three primary questions with these results:
 
 **Question 1**: Is transcriptional regulatory element activity more conserved across tissues or species?
 
