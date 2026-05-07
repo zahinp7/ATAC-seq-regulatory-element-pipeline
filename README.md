@@ -260,3 +260,5 @@ The main pipeline is orchestrated by `main.sh`, which calls the following script
 **Course:** Bioinformatics Data Practicum
 **Tissues:** Liver, Pancreas (Human \& Mouse)
 
+This pipeline was developed as part of a team project for CMU's Bioinformatics Data Practicum (03-713)
+
